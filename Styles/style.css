@@ -35,6 +35,19 @@ p {
     padding-top: 12%;
 }
 /* Card right orange */
+.img-home{
+    display: block;
+    padding: 3%;
+    margin-top: -12%;
+    text-align: left;
+    border-radius: 50% ;
+    background-color: #ffffff; 
+    position: absolute;
+    box-shadow: 2px 10px 41px -1px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 2px 10px 41px -1px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 10px 41px -1px rgba(0,0,0,0.17);
+
+}
 
 .card-img-top {
     box-shadow: 22px 7px 27px -26px rgba(0, 0, 0, 0.27);
@@ -48,6 +61,7 @@ p {
     font-weight: 900;
     margin-bottom: 0px;
     padding-bottom: 5%;
+    padding-top: 5%;
 
 }
 
@@ -154,7 +168,12 @@ p {
 .btn-outline-primary {
     font-weight: 900;
 }
+/* Efecto Before */
 
+
+
+
+    /* Media Querys */
 @media (max-width: 600px) {
     .card {}
 
