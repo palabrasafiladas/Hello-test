@@ -18,12 +18,22 @@ h5 {
     padding: 25px 83px 0px 270px;
 }
 
-.p {
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 28px 0px 0px 30px;
+.p-card-icon {
+    color: #a29e9c;
+    margin-right: 27%;
+    font-weight: 200;
+    padding: 14px 10px 14px 10px;
+    width: max-content;
 }
 
+p {
+    justify-content: space-between;
+    padding: 0px 10px 0px 70px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding-top: 12%;
+}
 /* Card right orange */
 
 .card-img-top {
