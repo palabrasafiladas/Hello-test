@@ -75,11 +75,11 @@ p {
     padding-top: 12%;
 }
 
-.container-f {
+/* .container-f {
     padding-left: 10px;
 
 
-}
+} */
 
 .container-card {
     width: 18rem;
@@ -136,7 +136,6 @@ p {
 
 .button-orange {
     text-align: end;
-    padding-top: 60px;
 }
 
 .button-orange-email {
@@ -147,6 +146,8 @@ p {
 .btn-warning {
     background-color: #ec7000;
     color: #ffffff;
+    border-radius: 2px;
+    
 
 }
 
