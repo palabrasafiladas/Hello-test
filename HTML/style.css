@@ -1,0 +1,119 @@
+body {
+    font: 1rem/1.5 var(--bs-font-roboto);
+    background-color: #f9fafc;
+    font-family: Roboto, sans-serif, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+  a {
+    color: var(--bs-blue);
+  }
+  h5{
+    padding-bottom: 40px;
+ 
+ }
+.container{
+    padding: 10%;
+}
+
+/* Card right orange */
+
+
+
+.card-img-top{
+box-shadow: 22px 7px 27px -26px rgba(0,0,0,0.27);
+-webkit-box-shadow: 22px 7px 27px -26px rgba(0,0,0,0.27);
+-moz-box-shadow: 22px 7px 27px -26px rgba(0,0,0,0.27);
+}
+
+.card-title{
+    text-align: left;
+    padding-left: 5%;
+    font-weight: 900;
+    margin-bottom:0px;
+    padding-bottom: 5%;
+
+  }
+
+.card-text{
+    text-align:left;
+    padding-left: 5%;
+    font-weight: 400;
+
+}
+
+.p-card-icon{
+    color: #a29e9c;
+    margin-right: 25%;
+    font-weight: 200;
+   
+}
+
+.container-f{
+    padding-left: 10px;
+    
+}
+
+/*card-Appi  */
+.icon-success{
+    width: 15%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+
+.img-fluid{
+    margin-left: 5%;
+  
+    padding-left: 20%;
+    
+}
+.card-body{
+    margin: 0%;
+    text-align: right;
+    font-size: 16px;
+  
+    font-family: 'Roboto', sans-serif;
+
+    box-shadow: 22px 7px 27px -26px rgba(184, 174, 174, 0.27);
+    -webkit-box-shadow: 22px 7px 27px -26px rgba(141, 135, 135, 0.27);
+    -moz-box-shadow: 22px 7px 27px -26px rgba(153, 143, 143, 0.27);
+}
+.col-md-2{
+padding:  5%;
+margin-left: 5%;
+}
+
+
+.mb-3{
+    
+    box-shadow: 22px 7px 27px -26px rgba(184, 174, 174, 0.27);
+    -webkit-box-shadow: 22px 7px 27px -26px rgba(141, 135, 135, 0.27);
+    -moz-box-shadow: 22px 7px 27px -26px rgba(153, 143, 143, 0.27);
+}
+/* .p-card-appi{
+    padding: 10%;
+    margin: 2%;
+} */
+
+
+/* css buttons */
+
+.button-orange{
+    text-align: end;
+    padding-top: 60px;
+}
+.button-orange-email{
+    text-align: end;
+    padding-top: 60px;
+}
+.btn-warning {
+    background-color: #ec7000;
+    color: #ffffff;
+   
+}
+.btn-outline-primary{
+    font-weight: 900;
+}
+/* css page2 */
+
