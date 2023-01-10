@@ -24,7 +24,7 @@ function success(datos) {
 
 
     links = links +
-      "<div class='card mb-3'>" +
+      "<div class='card mb-3' onclick=seleccionar('"+datos[i].value+"');>" +
       "<div class='row'>" +
       "<div class='col-md-2 ' >" +
       "<img src='" + datos[i].image + "' class='img' alt='...'>" +
@@ -41,8 +41,14 @@ function success(datos) {
 
   }
 
-
-
   console.log(links);
   $("#cardOpctions").html(links);
 };
+
+
+function seleccionar(data){
+  var optionSelected = data;
+
+  $("#link").attr("href", "./formulario.html?option="+optionSelected);
+  //window.alert(option);
+}

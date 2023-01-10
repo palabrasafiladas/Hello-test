@@ -24,3 +24,10 @@ h5{
     text-align: left;
     padding-bottom: 10px;
 }
+
+.errorMsjOculto{
+    display: none;
+    color:#e23232;
+    font-size: 12px;
+    margin-top: 10px;
+}

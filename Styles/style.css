@@ -133,7 +133,7 @@ p {
 
 
 .mb-3 {
-
+    
     box-shadow: 22px 7px 27px -26px rgba(184, 174, 174, 0.27);
     -webkit-box-shadow: 22px 7px 27px -26px rgba(141, 135, 135, 0.27);
     -moz-box-shadow: 22px 7px 27px -26px rgba(153, 143, 143, 0.27);
@@ -161,6 +161,7 @@ p {
     background-color: #ec7000;
     color: #ffffff;
     border-radius: 2px;
+    margin-bottom: 20px;
     
 
 }
@@ -168,18 +169,9 @@ p {
 .btn-outline-primary {
     font-weight: 900;
 }
-/* Efecto Before */
 
+.mb-3:hover {
+    border: 1px solid #ec7000;
+    background-color: #f0f0f0;
+  }
 
-
-
-    /* Media Querys */
-@media (max-width: 600px) {
-    .card {}
-
-    .container-principal {
-        display: flex;
-        flex-direction: column;
-
-    }
-}

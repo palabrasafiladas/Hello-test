@@ -1,17 +1,16 @@
+function validateEmail(){
+                
+	// Get our input reference.
+	var emailField = document.getElementById('email');
+	
+	// Define our regular expression.
+	var validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
 
-
-var email =document.GetElementById('email');
-var error =document.GetElementById('error');
-error.style.color='red';
-
-
-function enviarFormulario (){
-console.log('Enviando formulario');
-var mensajesError = [];
-if(email.value === null || email.value ==='') {
-    mensajesError.push('Por favor, ingresá un correo válido');
+	// Using test we can check if the text match the pattern
+	if( validEmail.test(emailField.value) ){
+		return true;
+	}else{
+		$("#mailError").show();
+		return false;
+	}
 }
-error.innerHTML = mensajesError.join (',');
-return false;
-}
-
